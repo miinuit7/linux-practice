@@ -1,0 +1,116 @@
+    1  ls
+    2  mkdir linux_pratice1
+    3  ls
+    4  cd linux_practice1
+    5  rm -r linux_pratice1
+    6  ls
+    7  mkdir linux_practice1
+    8  ls
+    9  cd linux_practice1
+   10  touch index.php
+   11  ls
+   12  rm index.php
+   13  ls
+   14  mkdir public
+   15  ls
+   16  cd public
+   17  touch index.php
+   18  cp index.php index_bk.php
+   19  ls
+   20  git remote -v
+   21  git init
+   22  git commit -m "first commit"
+   23  git add .
+   24  git commit -m "first commit"
+   25  cd /
+   26  git add .
+   27  gir init
+   28  git init
+   29  git add .
+   30  ls
+   31  cd /root
+   32  ls
+   33  cd linux_practice1/public
+   34  ls
+   35  cd ..
+   36  cp -r public temp
+   37  ls
+   38  rm -r temp
+   39  ls
+   40  cp -r public tmp
+   41  ls
+   42  ls temp
+   43  ls tmp
+   44  rm tmp/index_bk.php
+   45  ls tmp
+   46  cd .
+   47  cd ..
+   48  ls
+   49  mv root/linux_practice1 server_lesson
+   50  pwd
+   51  cd server_lesson
+   52  mv root/linux_practice1 linux_practice1
+   53  mv /root/linux_practice1 linux_practice1
+   54  ls
+   55  touch README.md
+   56  ls
+   57  vim README.md
+   58  vi README.md
+   59  vi README.md
+   60  :set enc?
+   61  vi README.md
+   62  cat README.md
+   63  cd ..
+   64  cd server_lesson
+   65  ls
+   66  mkdir linux_practice2
+   67  ls
+   68  ls
+   69  cd linux_practice2
+   70  touch gizumo{1..50).md
+   71  touch gizumo{01..050).md
+   72  touch gizumo{01..050}.md
+   73  ls
+   74  rm gizumo{01..050}.md
+   75  ls
+   76  rm gizumo{1..50}.md
+   77  touch gizumo{1..50}.md
+   78  ls
+   79  rm gizumo{1..50}.md
+   80  ls
+   81  touch gizumo{01..50}.md
+   82  ls
+   83  mkdir trash
+   84  ls
+   85  cd trash
+   86  mv /linux_practice2/gizumo{01..50}.md gizumo{01..50}.md  
+   87  mv /linux_practice2/gizumo{20..50}.md gizumo{20..50}.md  
+   88  mv /linux_practice2/gizumo{020..050}.md gizumo{020..050}.md  
+   89  mv /linux_practice2/gizumo{020..040}.md gizumo{020..040}.md  
+   90  mv /linux_practice2/gizumo{020..040}.md gizumo{020..040}.md  
+   91  mv /linux_practice2/gizumo{20..40}.md gizumo{20..40}.md  
+   92  mv linux_practice2/gizumo{20..40}.md gizumo{20..40}.md  
+   93  mv ./gizumo{20..40}.md gizumo{20..40}.md  
+   94  mv ../gizumo{20..40}.md gizumo{20..40}.md  
+   95  cd ..
+   96  mkdir documents
+   97  ls
+   98  cd trash
+   99  mv gizumo{20..40}.md gizumo{20..40}.md  
+  100  /server_lesson/linux_practice2/mv gizumo{20..40}.md gizumo{20..40}.md  
+  101  server_lesson/linux_practice2/mv gizumo{20..40}.md gizumo{20..40}.md  
+  102  mv server_lesson/linux_practice2/gizumo{20..40}.md gizumo{20..40}.md  
+  103  mv gizumo{20..40}.md /trash
+  104  mv gizumo{20..40}.md trash/
+  105  cd ..
+  106  mv gizumo{20..40}.md trash/
+  107  cd trash
+  108  ls
+  109  cd ..
+  110  mv gizumo{20..40}.md documents/
+  111  mv gizumo{01..19}.md documents/
+  112  mv gizumo{41..50}.md documents/
+  113  ls
+  114  touch .gitignore
+  115  vi .gitignore
+  116  history 300 > exec_command.log
